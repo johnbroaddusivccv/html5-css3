@@ -210,7 +210,7 @@ p {
 /* Testimonials */
 .about-about-img {
   float: left;
-  width: 50%;
+  width: 100%;
   background: url('../images/manpouringscotch.jpg') no-repeat center center/cover;
   min-height: 100%;
 }
