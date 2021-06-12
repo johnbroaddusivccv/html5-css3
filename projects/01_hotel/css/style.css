@@ -213,6 +213,7 @@ p {
   width: 100%;
   background: url('../images/manpouringscotch.jpg') no-repeat center center/cover;
   min-height: 100%;
+  opacity: 0.8;
 }
 /* Footer */
 #main-footer {
