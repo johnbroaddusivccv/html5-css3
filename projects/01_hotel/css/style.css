@@ -171,7 +171,12 @@ p {
 }
 
 /* About Info */
-
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../images/hotelbathroom.jpg') no-repeat center center/cover;
+  min-height: 100%;
+}
 #about-info .info-right {
   float: right;
   width: 50%;
@@ -202,6 +207,13 @@ p {
   margin-bottom: 1px;
 }
 
+/* Testimonials */
+.about-about-img {
+  float: left;
+  width: 50%;
+  background: url('../images/manpouringscotch.jpg') no-repeat center center/cover;
+  min-height: 100%;
+}
 /* Footer */
 #main-footer {
   text-align: center;
