@@ -63,6 +63,17 @@ p {
   clear: both;;
 }
 
+/* Padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
 /* Navbar */
 #navbar {
   background: #000;
@@ -159,6 +170,34 @@ p {
   height: 100%;
 }
 
+/* About Info */
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 3%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+}
+
+#about-info .info-left h1 {
+  color: #000;
+  font-size: 30px;
+}
+
+#about-info .info-left p {
+  color: #000
+}
 .box i {
   margin-bottom: 1px;
 }
