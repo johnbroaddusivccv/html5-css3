@@ -207,7 +207,7 @@ p {
   margin-bottom: 1px;
 }
 
-/* Testimonials */
+/* About About */
 .about-about-img {
   float: left;
   width: 100%;
@@ -234,6 +234,24 @@ p {
 
 #contact-form textarea {
   height: 200px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+  outline: none;
+  border-color: azure;
+}
+
+#contact-form .btn {
+  margin-bottom: 20px;
+}
+
+.contact-img {
+  float: left;
+  width: 100%;
+  background: url('../images/hotelstaircase.jpg ') no-repeat center center/cover;
+  min-height: 100%;
+  opacity: 0.8;
+  padding: 20px 5px;;
 }
 /* Footer */
 #main-footer {
