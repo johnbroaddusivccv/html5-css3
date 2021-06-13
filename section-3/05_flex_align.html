@@ -16,10 +16,12 @@
       display: flex;
       background: #444;
       /* By default flex is in a row */
-      flex-direction: column;
+      flex-direction: row;
       /* centers in the container */
       /* Makes it easy to align things */
       align-items: center;
+      /* align-items: stretch; */
+      justify-content: flex-start;
       height: 50vh;
     }
 
@@ -30,9 +32,20 @@
       padding: 10px;
       text-align: center;
       border-radius: 10px;
-      flex: 1;
-      
-    }
+      /* flex: 1; */
+      }
+
+      .item-1 {
+        align-self: flex-start;
+      }
+
+      .item-2 {
+        align-self: flex-end;
+      }
+
+      .item-3 {
+        align-self: flex-end;
+      }
 
     
   </style>
