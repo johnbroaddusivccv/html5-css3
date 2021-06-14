@@ -150,3 +150,45 @@ height: 100%
 .flex-columns p {
   padding: 10px 0;
 }
+
+/* Section Header */
+#section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#section-header h2 {
+  font-size: 30px;
+  margin: 20px 0;
+  border-bottom: 1px solid black;;
+
+}
+
+#section-header h4 {
+  font-size: 22px;
+}
+
+.section-padding {
+  padding: 20px 20px 40px;
+}
+
+/* Flex-grid */
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
