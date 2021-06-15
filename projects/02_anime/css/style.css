@@ -216,6 +216,7 @@ img {
 
 .column-2.forum {
   color: #333;
+  border: 1px solid #333;
 }
 
 .column-2.forum .btn {
