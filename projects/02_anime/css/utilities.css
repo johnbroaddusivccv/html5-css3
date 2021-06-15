@@ -192,3 +192,8 @@ height: 100%
 .flex-columns.flex-reverse .row {
   flex-direction: row-reverse;
 }
+
+.team.flex-items img {
+  width: 100%;
+  object-fit: cover;
+}
