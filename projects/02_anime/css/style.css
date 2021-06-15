@@ -49,6 +49,11 @@ img {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  transition: 0.5s;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 .navbar a {
@@ -187,6 +192,23 @@ img {
 .callback-form .btn {
   padding: 12px 0;
   margin-bottom: 20px;
+}
+
+/* Post */
+.post {
+  padding: 50px 30px;
+}
+
+.post h2 {
+  font-size: 40px;;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.post .meta {
+  margin-bottom: 30px;
 }
 
 /* Footer */
