@@ -10,6 +10,9 @@
       --primary-color: steelblue;
       --secondary-color: skyblue;
       --light-color: #f4f4f4;
+      --box-1-width: 1;
+      --box-2-width: 2;
+
     }
     
     * {
@@ -42,6 +45,14 @@
       color: #fff;
       padding: 1rem;
       margin: 1rem;
+    }
+
+    .box-1 {
+      flex: var(--box-1-width);
+    }
+
+    .box-2 {
+      flex: var(--box-2-width);
     }
   </style>
   <title>CSS Variables</title>
