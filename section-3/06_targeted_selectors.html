@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+      div p {
+        background-color: #333;
+      }
+
+      /* Direct Child */
+      /* Child of the div */
+      div > p {
+        background: #e99;
+      }
+
+      /* Directly after */
+      /* sibling of the div */
+      div + p {
+        background: #333;
+        color: white;
+      }
+
+      /* By attribute */
+      a[target='_blank'] {
+        background: red;
+      }
+
+      /* Specific Attribute Values */
+      input[type='text'], input[type='email'], input[type='submit'] {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+
+  </style>
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="">
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ul>
+      <li>item 1</li>
+      <li> <p>item 2</p> </li>
+      <li>item 3</li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eius?</p>
+
+  <a href="#" target="_self">Page 1</a>
+  <a href="https://google.com" target="_blank">Google</a>
+  
+  <br><br>
+
+  <form action="">
+<input type="text" name="name" id="name" placeholder="Name">
+<input type="email" name="email" id="email" placeholder="Email">
+<button type="submit">submit</button>
+
+  </form>
+</body>
+</html>
