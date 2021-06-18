@@ -21,6 +21,10 @@ body {
 #main-heading {
   background: var(--secondary-color);
   padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .container {
@@ -75,5 +79,17 @@ h1 {
   bottom: 0;
   width: 25px;
   height: 25px;
-  background: inherit;
+  background: var(--secondary-color);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  transition: background 0.5s ease-in-out;
+}
+
+#timeline div:before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
 }
