@@ -30,3 +30,18 @@ body {
 #navbar ul li ul {
   display: none;
 }
+
+#navbar ul li:hover {
+  cursor: pointer;
+  background: coral;
+  color: #fff;
+}
+
+#navbar ul li:hover a {
+  color: #fff;
+}
+
+/* Nested drop down show */
+#navbar ul li:hover ul {
+  display: block;
+}
