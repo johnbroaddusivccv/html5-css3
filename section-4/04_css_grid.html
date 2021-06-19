@@ -4,17 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .grid {
+        display: grid;
+
+        /* grid-template-columns: repeat(3, auto); */
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-gap: 1rem;
+      }
+
+      .item {
+        padding: 3rem;
+        background: #ccc;
+        border: 1px solid #f4f4f4;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
     <title>CSS Grid</title>
   </head>
   <body>
-    <!-- The Grid is capable of 2d layouts -->
-    <!-- More difficult than flexbox -->
-    <!-- Understand the context of having a container -->
-    <!-- One dimensional  -->
-    <!--        -->
-    <!--        -->
-    <!--              -->
-    <!--              -->
-    <!-- Two Dimensional ^^^^^^^^^^ -->
+    <div class="comment-div">
+      <!-- The Grid is capable of 2d layouts -->
+      <!-- More difficult than flexbox -->
+      <!-- Understand the context of having a container -->
+      <!-- One dimensional  -->
+      <!--        -->
+      <!--        -->
+      <!--              -->
+      <!--              -->
+      <!-- Two Dimensional ^^^^^^^^^^ -->
+    </div>
+    <div class="grid">
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+    </div>
   </body>
 </html>
