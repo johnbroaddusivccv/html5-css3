@@ -21,6 +21,12 @@
         font-weight: bold;
         text-align: center;
       }
+
+      main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1.3rem;
+      }
     </style>
     <title>CSS Grid</title>
   </head>
@@ -44,5 +50,23 @@
       <div class="item">item 5</div>
       <div class="item">item 6</div>
     </div>
+    <main>
+      <section>
+        <h3>This is the main section</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          dolores amet obcaecati consequatur blanditiis, placeat eum. Maxime
+          cupiditate quaerat culpa.
+        </p>
+      </section>
+
+      <aside>
+        <h2>Side Bar</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis,
+          quod.
+        </p>
+      </aside>
+    </main>
   </body>
 </html>
