@@ -111,6 +111,40 @@ h6 {
   padding: 1rem;
 }
 
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 1.5rem;
+}
+.py-5 {
+  padding: 2rem;
+}
+.py-6 {
+  padding: 3rem;
+}
+
 /* Navigation */
 #main-nav {
   background: #fff;
@@ -192,4 +226,23 @@ h6 {
 
 #showcase .showcase-content p {
   margin-bottom: 1rem;
+}
+
+#home-article .articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+#home-article .articles-container > *:first-child,
+#home-article .articles-container > *:last-child {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  grid-column: 1 / span 2;
+}
+
+#home-article .articles-container > *:last-child {
+  grid-column: 2 / span 2;
 }
