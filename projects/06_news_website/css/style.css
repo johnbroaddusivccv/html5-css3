@@ -9,7 +9,7 @@
 }
 
 .category {
-  --sports-color: #000;
+  --sports-color: rgba(0, 0, 0, 0.507);
   --ent-color: #a66bb3;
   --tech-color: #009cff;
 }
