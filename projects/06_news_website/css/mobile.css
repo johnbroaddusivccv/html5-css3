@@ -1,0 +1,36 @@
+/*  */
+#main-nav .social i {
+  /* display: none; */
+}
+
+#main-nav .container {
+  grid-template-columns: 1fr;
+  grid-gap: 1.2rem;
+}
+
+#main-nav ul,
+#main-nav .logo {
+  justify-self: center;
+}
+
+#main-nav ul li a {
+  padding: 0.5rem;
+}
+
+#home-article .articles-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#home-article .articles-container > *:first-child,
+#home-article .articles-container > *:last-child {
+  grid-template-columns: 1fr;
+  grid-column: 1;
+}
+
+@media (max-width: 600px) {
+  /* Stack Grid Items */
+  #showcase .showcase-container,
+  #home-article .articles-container {
+    grid-template-columns: 1fr;
+  }
+}
