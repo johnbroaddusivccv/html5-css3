@@ -22,110 +22,85 @@
   </head>
   <body>
     <!-- Header -->
-    <header id="header-home">
-      <div class="container">
-        <nav id="main-nav">
-          <h1 class="logo"><i class="fab fa-slack"></i> JMBIV</h1>
-          <ul>
-            <li><a href="index.html" class="current">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="header-content">
-          <h1 class="header-name">
-            John Morgan Broaddus
-            <i class="fa fa-ravelry" aria-hidden="true"></i>
-          </h1>
-          <span
-            class="txt-type"
-            data-wait="3000"
-            data-words='["HiDevEngine!", "Hi", "Dev", "Engine"]'
-          ></span>
-          <p class="lead">Digital Operations</p>
-          <a href="work.html" class="btn-light">My Work</a>
+    <div id="particles-js">
+      <header id="header-home">
+        <div class="container">
+          <nav id="main-nav">
+            <h1 class="logo"><i class="fab fa-slack"></i> JMBIV</h1>
+            <ul>
+              <li><a href="index.html" class="current">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="work.html">Work</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header-content">
+            <h1 class="header-name">John Morgan Broaddus</h1>
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["HiDevEngine!", "Hi", "Dev", "Engine"]'
+            ></span>
+            <p class="lead">Digital Operations</p>
+            <a href="work.html" class="btn-light">My Work</a>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </div>
 
     <!-- Section A: writing plus first row -->
-    <section id="home-a" class="text-center pt">
+    <section id="home-a" class="text-center pt my-t">
       <div class="container">
         <h2 class="section-title">Knowledge of Technologies</h2>
         <div class="bottom-line"></div>
         <p class="lead">
           Continuously learning about the identity and behaviours of computing,
-          physics, applied mathemathics, chemistry, audio-engineering, astronomy
-          and chess.
+          physics, applied mathemathics, chemistry, audio-engineering,
+          astronomy, and chess.
         </p>
+
         <div class="specials">
           <div>
-            <h3>Technology</h3>
+            <h3>C</h3>
             <img src="./images/plang/plang_c.png" alt="" />
           </div>
           <div>
-            <h3>Technology</h3>
+            <h3>Haskell</h3>
             <img src="./images/plang/plang_haskell.png" alt="" />
           </div>
           <div>
-            <h3>Technology</h3>
+            <h3>CSS</h3>
             <img src="./images/plang/plang_css.png" alt="" />
           </div>
           <div>
-            <h3>Technology</h3>
+            <h3>JavaScript</h3>
             <img src="./images/plang/plang_js.png" alt="" />
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Second row -->
-    <section id="home-a" class="text-center">
-      <div class="container">
-        <div class="specials">
           <div>
-            <h3>Technology</h3>
+            <h3>Ruby</h3>
             <img src="./images/plang/plang_ruby.png" alt="" />
           </div>
           <div>
-            <h3>Technology</h3>
+            <h3>Lua</h3>
             <img src="./images/plang/plang_lua.png" alt="" />
           </div>
           <div>
-            <h3>Technology</h3>
+            <h3>TypeScript</h3>
             <img src="./images/plang/plang_ts.png" alt="" />
           </div>
           <div>
-            <h3>Technology</h3>
+            <h3>C++</h3>
             <img src="./images/plang/plang_cpp.png" alt="" />
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Third row -->
-    <section id="home-a" class="text-center">
-      <div class="container">
-        <div class="specials">
-          <div>
-            <h3>Technology</h3>
-            <img src="./images/plang/plang_go.png" alt="" />
-          </div>
-          <div>
-            <h3>Technology</h3>
-            <img src="./images/plang/plang_java.png" alt="" />
-          </div>
-          <div>
-            <h3>Technology</h3>
-            <img src="./images/plang/plang_csharp.png" alt="" />
-          </div>
-          <div>
-            <h3>Technology</h3>
-            <img src="./images/plang/plang_python.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load("particles-js", "particles.json", function () {
+        console.log("particles.json loading...");
+      });
+    </script>
   </body>
 </html>
