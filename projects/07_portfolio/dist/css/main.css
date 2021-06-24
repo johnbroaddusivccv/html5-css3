@@ -217,15 +217,12 @@ img {
     font-size: 1.8rem; }
 
 @media (max-width: 550px) {
-  #main-nav .logo i,
-  #main-nav .logo {
-    display: none; }
   #main-nav ul li {
     padding: 1rem; }
   #main-nav ul li {
     justify-content: center; }
   #particles-js {
-    padding-bottom: 20%; }
+    padding-bottom: 10%; }
   #home-a .specials {
     grid-template-columns: repeat(4, 1fr); }
   .bottom-line {
@@ -241,4 +238,9 @@ img {
   #home-a .specials {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
-    margin-top: 0; } }
+    margin-top: 0; }
+  #main-nav .logo i,
+  #main-nav .logo {
+    display: none; }
+  #particles-js {
+    padding-bottom: 17%; } }
