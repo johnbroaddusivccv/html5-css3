@@ -344,9 +344,15 @@ img {
     grid-gap: 1.2rem;
     padding: 15px; }
   #home-c .process {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); }
+  #main-footer .footer-content.container .social .fab {
+    padding: 0.3rem; }
+  #main-footer .footer-content.container p {
+    font-size: 15px; } }
 
 @media (max-width: 414px) {
+  #header-home .header-name {
+    font-size: 2.3rem; }
   #home-c .process {
     grid-template-columns: repeat(1, 1fr); }
   #main-nav .logo i {
@@ -355,7 +361,7 @@ img {
     padding: 0 0.5rem; }
   #particles-js,
   #about-js {
-    padding-bottom: 20%; }
+    padding-bottom: 22%; }
   #home-a .about {
     display: grid;
     grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
