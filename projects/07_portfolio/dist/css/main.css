@@ -86,6 +86,45 @@ input[class^="btn-"]:hover {
   font-weight: 100;
   text-transform: uppercase; }
 
+.bg-main {
+  background: #ffbc80;
+  color: #000; }
+
+.bg-dark {
+  background: #333;
+  color: #fff; }
+
+.bg-light {
+  background: #f4f4f4;
+  color: #000; }
+
+.bg-medium {
+  background: #ccc;
+  color: #000; }
+
+#home-a .about {
+  display: grid;
+  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+  grid-gap: 1.2rem;
+  padding: 15px; }
+
+#home-a .bio-image {
+  grid-area: bioimage; }
+
+#home-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #ffbc80;
+  padding: 0.8rem; }
+
+#home-a .section-1 {
+  grid-area: aw1; }
+
+#home-a .section-2 {
+  grid-area: aw2; }
+
+#home-a .section-3 {
+  grid-area: aw3; }
+
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
@@ -138,7 +177,36 @@ input[class^="btn-"]:hover {
     height: 70px;
     line-height: 70px;
     text-align: center;
-    position: relative; }
+    position: relative;
+    transition: all 1s; }
+    #home-c .process-icon:hover {
+      background: #ffbc80;
+      width: 90px;
+      height: 90px;
+      line-height: 90px; }
+      #home-c .process-icon:hover .process-step {
+        background: #333; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social .fab {
+      margin-right: 0.5rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #ffbc80; }
 
 * {
   margin: 0;
@@ -194,14 +262,13 @@ img {
 #particles-js {
   background-color: #000000; }
 
-#particle-js:before {
+#about-js {
+  background: #000; }
+
+#about-js {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.8;
-  z-index: 9; }
+  z-index: 1; }
 
 #header-home {
   height: 12vh;
@@ -216,12 +283,18 @@ img {
   #header-home h1 {
     font-size: 1.8rem; }
 
+#header-inner {
+  height: 12vh;
+  color: #fff;
+  position: relative; }
+
 @media (max-width: 550px) {
   #main-nav ul li {
     padding: 1rem; }
   #main-nav ul li {
     justify-content: center; }
-  #particles-js {
+  #particles-js,
+  #about-js {
     padding-bottom: 10%; }
   #home-a .specials {
     grid-template-columns: repeat(4, 1fr); }
@@ -242,5 +315,13 @@ img {
   #main-nav .logo i,
   #main-nav .logo {
     display: none; }
-  #particles-js {
-    padding-bottom: 17%; } }
+  #particles-js,
+  #about-js {
+    padding-bottom: 17%; }
+  #home-a .about {
+    display: grid;
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
+    grid-gap: 1.2rem;
+    padding: 15px; }
+  #home-c .process {
+    grid-template-columns: repeat(1, 1fr); } }
