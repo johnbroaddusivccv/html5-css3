@@ -125,6 +125,12 @@ input[class^="btn-"]:hover {
 #home-a .section-3 {
   grid-area: aw3; }
 
+#home-a .section-1 .fas,
+#home-a .section-2 .fas,
+#home-a .section-3 .fas {
+  color: #ffbc80;
+  margin: 1rem; }
+
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
