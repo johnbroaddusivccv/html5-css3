@@ -332,9 +332,6 @@ img {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     margin-top: 0; }
-  #main-nav .logo i,
-  #main-nav .logo {
-    display: none; }
   #particles-js,
   #about-js {
     padding-bottom: 17%; }
@@ -344,19 +341,13 @@ img {
     grid-gap: 1.2rem;
     padding: 15px; }
   #home-c .process {
-    grid-template-columns: repeat(1, 1fr); }
-  #main-footer .footer-content.container .social .fab {
-    padding: 0.3rem; }
-  #main-footer .footer-content.container p {
-    font-size: 15px; } }
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media (max-width: 414px) {
   #header-home .header-name {
     font-size: 2.3rem; }
   #home-c .process {
     grid-template-columns: repeat(1, 1fr); }
-  #main-nav .logo i {
-    display: none; }
   #main-footer .footer-content.container {
     padding: 0 0.5rem; }
   #particles-js,
@@ -380,14 +371,14 @@ img {
 
 .item {
   position: relative;
-  background: #ffbc80;
+  background: #000;
   overflow: hidden; }
   .item:after {
     content: "";
     position: absolute;
     display: block;
     background: inherit;
-    opacity: 0.9;
+    opacity: 0.99;
     top: 0;
     left: 0;
     width: 100%;
@@ -476,3 +467,69 @@ img {
 #contact-c h1 {
   text-align: center;
   font-size: 2rem; }
+
+@media (max-width: 800px) {
+  #main-footer {
+    height: 7rem; }
+    #main-footer .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+      height: 5rem; } }
+
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center; }
+    #main-nav li {
+      padding: 1rem; }
+  #header-home {
+    height: 10rem;
+    border-bottom: 3px solid #ffbc80; }
+  #header-inner {
+    height: 10rem; }
+  .items {
+    grid-template-columns: repeat(1, 1fr); }
+  #main-footer {
+    height: 7rem; }
+    #main-footer .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+      height: 5rem; }
+  #contact-a .text-fields {
+    grid-template-areas: "name" "subject" "email" "phone" "message"; }
+  #contact-b .contact-info {
+    grid-template-columns: repeat(1, 1fr); }
+  #contact-b div {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px #555 solid; }
+    #contact-b div:last-child {
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0; }
+  #contact-c h1 {
+    font-size: 1.7rem; } }
+
+@media (max-width: 375px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center; }
+    #main-nav li {
+      padding: 1rem; }
+  #header-home {
+    height: 10rem;
+    border-bottom: 3px solid #ffbc80; }
+  #header-inner {
+    height: 10rem; }
+  #home-a .specials div {
+    border-bottom: 1px #f4f4f4 solid;
+    padding-bottom: 1rem; }
+    #home-a .specials div:last-child {
+      border: none;
+      padding-bottom: 0; }
+  #main-footer {
+    height: 7rem; }
+    #main-footer .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+      height: 5rem; } }
